@@ -1,6 +1,6 @@
 package net.internetmemory.utils;
 
-import net.internetmemory.constants.Html;
+import net.internetmemory.utils.Html;
 import org.xml.sax.Attributes;
 
 import java.util.Arrays;

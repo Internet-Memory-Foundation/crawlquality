@@ -4,7 +4,7 @@ package net.internetmemory.utils;
  * Created by barton on 21/02/17.
  */
 
-import net.internetmemory.mapred.reader.WarcRecord;
+import net.internetmemory.utils.WarcRecord;
 import org.jwat.common.HeaderLine;
 import org.jwat.warc.WarcReader;
 import org.jwat.warc.WarcReaderFactory;
@@ -18,7 +18,7 @@ public class WarcReaderWrapper {
 
     public static final Logger LOG = LoggerFactory.getLogger(WarcReaderWrapper.class);
 
-    public static MimeDetection mimeDetection = new MimeDetection(null);
+    public static MimeDetection mimeDetection = new MimeDetection();
 
     /**
      * Parse the jwat warc record to our internal warc record
